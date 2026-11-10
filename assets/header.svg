@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="t d">
   <title id="t">Shreyan Dhawa, AI engineer</title>
-  <desc id="d">Shreyan Dhawa, AI engineer working in the biomedical field. A decorative animation shows a heartbeat signal passing through a small neural network, layer by layer.</desc>
+  <desc id="d">Shreyan Dhawa, AI engineer working in the biomedical field, specializing in protein engineering. A decorative animation shows a short protein chain lighting up residue by residue, then passing through a small neural network, layer by layer.</desc>
   <style>
     .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
     .mono { font-family: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
@@ -9,15 +9,13 @@
     .role { font-size: 28px; font-weight: 650; letter-spacing: -0.6px; fill: #ffffff; }
     .tag { font-size: 21px; fill: #a8a8a8; letter-spacing: -0.1px; }
     .small { font-size: 15px; fill: #828282; }
+    .aa { font-size: 12px; font-weight: 700; fill: #e6e6e6; }
 
-    /* Text never animates, so the name is always readable. Base styles show a resting
-       network; each animation starts from its first keyframe. */
-
-    .trace { fill: none; stroke: #3a3a3a; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
-    .sweep { fill: none; stroke: #ff3b6b; stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round;
-              stroke-dasharray: 0.22 1; stroke-dashoffset: 0;
-              animation: sweep 4.0s linear infinite both; }
-    @keyframes sweep { 0% { stroke-dashoffset: 0.22; } 40%, 100% { stroke-dashoffset: -1; } }
+    /* Nothing starts invisible: text never animates, and base styles show a resting
+       chain and network. Each animation starts from its first keyframe. */
+    .chain { fill: none; stroke: #3a3a3a; stroke-width: 2.5; stroke-linejoin: round; }
+    .bead { fill: #141414; stroke: #a8a8a8; stroke-width: 1.5; animation: bead 4.0s ease-out infinite both; }
+    @keyframes bead { 0% { fill: #141414; stroke: #a8a8a8; } 6%, 30% { fill: #d6336c; stroke: #ff3b6b; } 48%, 100% { fill: #141414; stroke: #a8a8a8; } }
 
     .e { stroke: #222222; stroke-width: 1; animation: edge 4.0s ease-out infinite both; }
     @keyframes edge { 0% { stroke: #222222; } 6% { stroke: #2f6fd6; } 22%, 100% { stroke: #222222; } }
@@ -27,7 +25,7 @@
     @keyframes fire { 0% { fill: #0a0a0a; stroke: #a8a8a8; } 6%, 18% { fill: #4a93ff; stroke: #4a93ff; } 32%, 100% { fill: #0a0a0a; stroke: #a8a8a8; } }
 
     @media (prefers-reduced-motion: reduce) {
-      .sweep, .e, .n { animation: none; }
+      .bead, .e, .n { animation: none; }
     }
   </style>
 
@@ -44,25 +42,23 @@
   </g>
   <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="15.5" fill="none" stroke="#262626" stroke-width="1.5"/>
 
-  <!-- Left: name and role -->
-  <text x="56" y="100" class="mono label">HELLO, I'M</text>
-  <text x="52" y="172" class="sans name">Shreyan Dhawa</text>
-  <text x="56" y="218" class="sans role">AI engineer</text>
-  <text x="56" y="256" class="sans tag">Working in the biomedical field.</text>
-  <text x="56" y="308" class="mono small">machine learning · biomedical data · python</text>
+  <!-- Left: name, role and specialty -->
+  <text x="56" y="88" class="mono label">HELLO, I'M</text>
+  <text x="52" y="160" class="sans name">Shreyan Dhawa</text>
+  <text x="56" y="204" class="sans role">AI engineer</text>
+  <text x="56" y="242" class="sans tag">Working in the biomedical field,</text>
+  <text x="56" y="270" class="sans tag">specializing in protein engineering.</text>
+  <text x="56" y="312" class="mono small">machine learning · protein engineering · python</text>
 
-  <!-- Right: decorative signal-to-network card (not real data) -->
+  <!-- Right: decorative protein-chain-to-network card (not real data) -->
   <g>
     <rect x="696" y="48" width="448" height="264" rx="14" fill="#0a0a0a" stroke="#262626" stroke-width="1.5"/>
-    <text x="720" y="84" class="mono label">SIGNAL → MODEL</text>
+    <text x="720" y="84" class="mono label">SEQUENCE → MODEL</text>
 
-    <path class="trace" d="M720 200 L728 200 L731 195 L734 200 L740 200 L742 206 L745 160 L748 214 L751 200 L760 200 L765 191 L770 200 L785 200 L793 200 L796 195 L799 200 L805 200 L807 206 L810 160 L813 214 L816 200 L825 200 L830 191 L835 200 L850 200 L848 200"/>
-    <path class="sweep" pathLength="1" d="M720 200 L728 200 L731 195 L734 200 L740 200 L742 206 L745 160 L748 214 L751 200 L760 200 L765 191 L770 200 L785 200 L793 200 L796 195 L799 200 L805 200 L807 206 L810 160 L813 214 L816 200 L825 200 L830 191 L835 200 L850 200 L848 200"/>
-
-    <line class="e" x1="848" y1="200" x2="892" y2="149" style="animation-delay:1.6s"/>
-    <line class="e" x1="848" y1="200" x2="892" y2="183" style="animation-delay:1.6s"/>
-    <line class="e" x1="848" y1="200" x2="892" y2="217" style="animation-delay:1.6s"/>
-    <line class="e" x1="848" y1="200" x2="892" y2="251" style="animation-delay:1.6s"/>
+    <line class="e" x1="839" y1="218" x2="892" y2="149" style="animation-delay:1.6s"/>
+    <line class="e" x1="839" y1="218" x2="892" y2="183" style="animation-delay:1.6s"/>
+    <line class="e" x1="839" y1="218" x2="892" y2="217" style="animation-delay:1.6s"/>
+    <line class="e" x1="839" y1="218" x2="892" y2="251" style="animation-delay:1.6s"/>
     <line class="e" x1="892" y1="149" x2="964" y2="120" style="animation-delay:2.0s"/>
     <line class="e" x1="892" y1="149" x2="964" y2="152" style="animation-delay:2.0s"/>
     <line class="e" x1="892" y1="149" x2="964" y2="184" style="animation-delay:2.0s"/>
@@ -119,6 +115,19 @@
     <line class="e" x1="1036" y1="217" x2="1106" y2="222" style="animation-delay:2.8s"/>
     <line class="e" x1="1036" y1="251" x2="1106" y2="178" style="animation-delay:2.8s"/>
     <line class="e" x1="1036" y1="251" x2="1106" y2="222" style="animation-delay:2.8s"/>
+    <path class="chain" d="M734 182 L755 218 L776 182 L797 218 L818 182 L839 218"/>
+    <circle class="bead" cx="734" cy="182" r="12" style="animation-delay:0.00s"/>
+    <text class="mono aa" x="734" y="186.5" text-anchor="middle">M</text>
+    <circle class="bead" cx="755" cy="218" r="12" style="animation-delay:0.22s"/>
+    <text class="mono aa" x="755" y="222.5" text-anchor="middle">K</text>
+    <circle class="bead" cx="776" cy="182" r="12" style="animation-delay:0.44s"/>
+    <text class="mono aa" x="776" y="186.5" text-anchor="middle">T</text>
+    <circle class="bead" cx="797" cy="218" r="12" style="animation-delay:0.66s"/>
+    <text class="mono aa" x="797" y="222.5" text-anchor="middle">L</text>
+    <circle class="bead" cx="818" cy="182" r="12" style="animation-delay:0.88s"/>
+    <text class="mono aa" x="818" y="186.5" text-anchor="middle">A</text>
+    <circle class="bead" cx="839" cy="218" r="12" style="animation-delay:1.10s"/>
+    <text class="mono aa" x="839" y="222.5" text-anchor="middle">W</text>
     <circle class="n" cx="892" cy="149" r="7" style="animation-delay:1.8s"/>
     <circle class="n" cx="892" cy="183" r="7" style="animation-delay:1.8s"/>
     <circle class="n" cx="892" cy="217" r="7" style="animation-delay:1.8s"/>
