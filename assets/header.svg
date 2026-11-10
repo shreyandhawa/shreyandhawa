@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="t d">
+  <title id="t">Shreyan Dhawa</title>
+  <desc id="d">I build software that checks clinical research records against the documents behind them. A highlighted line in a source note is linked to a field in a research record, which is marked as a match or a discrepancy.</desc>
+  <style>
+    .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .mono { font-family: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+    .label { font-size: 14px; letter-spacing: 0.12em; fill: #828282; }
+    .name { font-size: 72px; font-weight: 800; letter-spacing: -2.9px; fill: #ffffff; }
+    .tag { font-size: 22px; fill: #a8a8a8; letter-spacing: -0.1px; }
+    .small { font-size: 15px; fill: #828282; }
+    .field { font-size: 13px; fill: #a8a8a8; }
+
+    /* Base styles show the finished picture (with the "matches" step lit), so the image
+       still reads if a viewer does not play animations. Animations start from keyframes. */
+    .rise { animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) backwards; }
+    .d1 { animation-delay: 0.05s; } .d2 { animation-delay: 0.18s; } .d3 { animation-delay: 0.32s; }
+    .d4 { animation-delay: 0.42s; } .d5 { animation-delay: 0.55s; } .d6 { animation-delay: 0.7s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+    .hl { fill: #4a93ff; fill-opacity: 0.38; transform-box: fill-box; transform-origin: left center; }
+    .conn { fill: none; stroke: #4a93ff; stroke-width: 1.5; stroke-dasharray: 1 1; }
+    .box { fill: #0f0f0f; stroke: #4d4d4d; stroke-width: 1.5; }
+
+    #hlA { animation: hlA 12s ease-in-out 1s infinite both; }
+    #cA  { stroke-dashoffset: 0; animation: cA 12s ease-in-out 1s infinite both; }
+    #fA  { stroke: #30d158; animation: fA 12s ease-in-out 1s infinite both; }
+    #rA  { animation: rA 12s cubic-bezier(0.2, 0.7, 0.2, 1) 1s infinite both; }
+    #hlB { transform: scaleX(0); animation: hlB 12s ease-in-out 1s infinite both; }
+    #cB  { stroke-dashoffset: 1; animation: cB 12s ease-in-out 1s infinite both; }
+    #fB  { animation: fB 12s ease-in-out 1s infinite both; }
+    #rB  { opacity: 0; animation: rB 12s cubic-bezier(0.2, 0.7, 0.2, 1) 1s infinite both; }
+
+    @keyframes hlA { 0%, 4% { transform: scaleX(0); opacity: 1; } 12%, 42% { transform: scaleX(1); opacity: 1; } 48%, 100% { transform: scaleX(1); opacity: 0; } }
+    @keyframes cA  { 0%, 12% { stroke-dashoffset: 1; opacity: 1; } 18%, 42% { stroke-dashoffset: 0; opacity: 1; } 48%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+    @keyframes fA  { 0%, 16% { stroke: #4d4d4d; } 20%, 42% { stroke: #30d158; } 48%, 100% { stroke: #4d4d4d; } }
+    @keyframes rA  { 0%, 20% { opacity: 0; transform: translateY(4px); } 25%, 42% { opacity: 1; transform: none; } 48%, 100% { opacity: 0; transform: none; } }
+
+    @keyframes hlB { 0%, 54% { transform: scaleX(0); opacity: 1; } 62%, 92% { transform: scaleX(1); opacity: 1; } 98%, 100% { transform: scaleX(1); opacity: 0; } }
+    @keyframes cB  { 0%, 62% { stroke-dashoffset: 1; opacity: 1; } 68%, 92% { stroke-dashoffset: 0; opacity: 1; } 98%, 100% { stroke-dashoffset: 0; opacity: 0; } }
+    @keyframes fB  { 0%, 66% { stroke: #4d4d4d; } 70%, 92% { stroke: #ff3b30; } 98%, 100% { stroke: #4d4d4d; } }
+    @keyframes rB  { 0%, 70% { opacity: 0; transform: translateY(4px); } 75%, 92% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; transform: none; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .rise, #hlA, #cA, #fA, #rA, #hlB, #cB, #fB, #rB { animation: none; }
+    }
+  </style>
+
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1c1c1c"/>
+    </pattern>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="360" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="#000000"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="15.5" fill="none" stroke="#262626" stroke-width="1.5"/>
+
+  <!-- Left: name and line about the work -->
+  <text x="56" y="110" class="mono label rise d1">HELLO, I'M</text>
+  <text x="52" y="182" class="sans name rise d2">Shreyan Dhawa</text>
+  <text x="56" y="232" class="sans tag rise d3">I build software that checks clinical research</text>
+  <text x="56" y="264" class="sans tag rise d4">records against the documents behind them.</text>
+  <text x="56" y="308" class="mono small rise d5">synthetic data only · every finding cites its source</text>
+
+  <!-- Right: source note linked to a research record -->
+  <g class="rise d6">
+    <rect x="696" y="48" width="448" height="264" rx="14" fill="#0a0a0a" stroke="#262626" stroke-width="1.5"/>
+    <text x="720" y="84" class="mono label">SOURCE NOTE</text>
+    <text x="992" y="84" class="mono label">RECORD</text>
+    <line x1="968" y1="68" x2="968" y2="292" stroke="#1f1f1f" stroke-width="1.5"/>
+
+    <rect x="720" y="104" width="220" height="8" rx="4" fill="#2e2e2e"/>
+    <rect x="720" y="128" width="190" height="8" rx="4" fill="#2e2e2e"/>
+    <rect x="720" y="152" width="228" height="8" rx="4" fill="#2e2e2e"/>
+    <rect x="720" y="176" width="170" height="8" rx="4" fill="#2e2e2e"/>
+    <rect x="720" y="200" width="214" height="8" rx="4" fill="#2e2e2e"/>
+    <rect x="720" y="224" width="150" height="8" rx="4" fill="#2e2e2e"/>
+    <rect x="720" y="248" width="204" height="8" rx="4" fill="#2e2e2e"/>
+    <rect x="720" y="272" width="120" height="8" rx="4" fill="#2e2e2e"/>
+
+    <rect id="hlA" class="hl" x="716" y="124" width="198" height="16" rx="3"/>
+    <rect id="hlB" class="hl" x="716" y="196" width="222" height="16" rx="3"/>
+
+    <path id="cA" class="conn" pathLength="1" d="M918 132 C955 132 955 146 992 146"/>
+    <path id="cB" class="conn" pathLength="1" d="M942 204 C967 204 967 222 992 222"/>
+
+    <text x="992" y="124" class="mono field">onset date</text>
+    <rect id="fA" class="box" x="992" y="132" width="128" height="28" rx="7"/>
+    <rect x="1004" y="143" width="64" height="6" rx="3" fill="#3a3a3a"/>
+
+    <text x="992" y="200" class="mono field">max grade</text>
+    <rect id="fB" class="box" x="992" y="208" width="128" height="28" rx="7"/>
+    <rect x="1004" y="219" width="40" height="6" rx="3" fill="#3a3a3a"/>
+
+    <g id="rA" class="res">
+      <rect x="992" y="256" width="128" height="28" rx="14" fill="#30d158" fill-opacity="0.14" stroke="#30d158" stroke-width="1.5"/>
+      <text x="1056" y="275" text-anchor="middle" class="mono" font-size="13" fill="#30d158">✓ matches</text>
+    </g>
+    <g id="rB" class="res">
+      <rect x="992" y="256" width="128" height="28" rx="14" fill="#ff3b30" fill-opacity="0.14" stroke="#ff3b30" stroke-width="1.5"/>
+      <text x="1056" y="275" text-anchor="middle" class="mono" font-size="13" fill="#ff3b30">! discrepancy</text>
+    </g>
+  </g>
+</svg>
