@@ -4,7 +4,7 @@ I'm an AI engineer working in the biomedical field, specializing in protein engi
 
 ### Projects
 
-- **[ReSauce](https://github.com/shreyandhawa/ReSauce)**: checks clinical research records against the documents behind them.
+Coming soon.
 
 ### Tools
 
