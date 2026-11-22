@@ -1,17 +1,32 @@
-<img src="assets/header.svg" width="100%" alt="Shreyan Dhawa, AI engineer working in the biomedical field, specializing in protein engineering.">
+<img src="assets/header.svg" width="100%" alt="Shreyan Dhawa, computer science undergraduate building open-source tools for single-cell biology.">
 
-I'm an AI engineer working in the biomedical field, specializing in protein engineering.
+I'm a computer science undergraduate at the University of Southern Mississippi, minoring in biology and mathematics. I build open-source tools for single-cell biology — currently **[lumenCell](https://github.com/shreyandhawa/lumenCell_V2)**, which infers cell trajectories from single-cell RNA-seq data and then checks the result against T-cell receptor clonotypes, using ancestry evidence the inference never sees.
+
+```bash
+pip install lumencell && lumencell demo
+```
+
+Working toward computational immuno-oncology.
 
 ### Skills
 
-**Protein AI & Structural Modeling**<br>
-`AlphaFold 3` `RFdiffusion` `ESM-2 / ProtTrans` `ProteinMPNN` `PyRosetta` `OpenMM` `BioPython`
+**Single-cell & bioinformatics**<br>
+`scanpy` `AnnData` `PAGA + DPT` `Palantir` `scFates` `NumPy` `SciPy` `pandas`
 
-**Deep Learning Frameworks**<br>
-`PyTorch` `PyTorch Geometric (PyG)` `JAX` `Deep Graph Library (DGL)` `CUDA` `Hugging Face`
+**Languages**<br>
+`Python` `TypeScript` `SQL`
 
-**Bioinformatics & Multi-Omics**<br>
-`Single-Cell RNA-seq (scanpy, Seurat)` `Immune Repertoire (tcrdist3, MiXCR)` `PyMOL` `BLAST` `Immunogenicity Prediction (NetMHCpan)`
+**Backend**<br>
+`FastAPI` `SQLAlchemy` `pydantic` `Typer` `SQLite`
 
-**MLOps & Infrastructure**<br>
-`Linux/HPC (SLURM)` `AWS (Batch, SageMaker)` `Docker` `Nextflow` `Weights & Biases (W&B)` `Git`
+**Frontend**<br>
+`React` `deck.gl` `Dexie / IndexedDB` `Vite` `Valibot`
+
+**Speech & ML tooling**<br>
+`Hugging Face Transformers` `wav2vec2` `Whisper` `Azure Speech`
+
+**Testing & tooling**<br>
+`pytest` `Hypothesis` `Vitest` `Playwright` `mypy (strict)` `Git` `GitHub Actions` `uv`
+
+**Learning now**<br>
+`neural network fundamentals` `protein language models (ESM-2)` `TCR repertoire analysis`
