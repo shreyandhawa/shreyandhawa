@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="t d">
-  <title id="t">Shreyan Dhawa, AI engineer</title>
-  <desc id="d">Shreyan Dhawa, AI engineer working in the biomedical field, specializing in protein engineering. A decorative animation: amino-acid inputs pass through a small neural network into a rotating 3D protein structure.</desc>
+  <title id="t">Shreyan Dhawa, computer science undergraduate</title>
+  <desc id="d">Shreyan Dhawa, computer science undergraduate building open-source tools for single-cell biology. A decorative animation: amino-acid inputs pass through a small network into a rotating 3D structure.</desc>
   <style>
     .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
     .mono { font-family: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
@@ -63,15 +63,15 @@
   <!-- Left: name, role and specialty -->
   <text x="56" y="88" class="mono label">HELLO, I'M</text>
   <text x="52" y="160" class="sans name">Shreyan Dhawa</text>
-  <text x="56" y="204" class="sans role">AI engineer</text>
-  <text x="56" y="242" class="sans tag">Working in the biomedical field,</text>
-  <text x="56" y="270" class="sans tag">specializing in protein engineering.</text>
-  <text x="56" y="312" class="mono small">machine learning · protein engineering · python</text>
+  <text x="56" y="204" class="sans role">CS undergraduate</text>
+  <text x="56" y="242" class="sans tag">Building open-source tools for</text>
+  <text x="56" y="270" class="sans tag">single-cell biology.</text>
+  <text x="56" y="312" class="mono small">single-cell rna-seq · trajectory inference · python</text>
 
   <!-- Right: sequence -> model -> structure (decorative, not real data) -->
   <rect x="620" y="48" width="524" height="264" rx="14" fill="#0a0a0a" stroke="#262626" stroke-width="1.5"/>
   <g clip-path="url(#card)">
-    <text x="644" y="84" class="mono label">SEQUENCE → MODEL → STRUCTURE</text>
+    <text x="644" y="84" class="mono label">SEQUENCE → CLONE → LINEAGE</text>
     <circle class="halo" cx="1040" cy="196" r="100" fill="url(#glow)"/>
 
     <g stroke="url(#feedFaint)" stroke-width="1.5">
