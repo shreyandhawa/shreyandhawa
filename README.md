@@ -5,13 +5,11 @@ I'm a computer science student at the University of Southern Mississippi doing b
 ### Projects
 
 - **[Arohexis](https://github.com/shreyandhawa/arohexis)**: a local-first app that trains the moment of starting. Installable, works offline, keeps your data on your device.
+- **[nosolear](https://github.com/shreyandhawa/nosolear)**: an open-source English speaking coach that runs on your own machine. Speak for a minute a day, get scored, and drill your own weak spots.
 - **TruStory** (private): a local tool that compares statements against versioned evidence and exports findings with exact source references. Built for USM's Mississippi AI Innovation Hub.
 - **[lumenCell](https://github.com/shreyandhawa/lumenCell_V2)**: an interactive explorer for pseudotime and lineage trajectories in single-cell RNA-seq data.
 
 ### Skills
-
-**Single-cell & bioinformatics**<br>
-`scanpy` `AnnData` `PAGA + DPT` `Palantir` `scFates` `NumPy` `SciPy` `pandas`
 
 **Languages**<br>
 `Python` `TypeScript` `SQL`
@@ -22,7 +20,10 @@ I'm a computer science student at the University of Southern Mississippi doing b
 **Frontend**<br>
 `React` `deck.gl` `Dexie / IndexedDB` `Vite` `Valibot`
 
-**Speech & ML tooling**<br>
+**Bioinformatics & data**<br>
+`scanpy` `AnnData` `PAGA + DPT` `Palantir` `scFates` `NumPy` `SciPy` `pandas`
+
+**ML & speech**<br>
 `Hugging Face Transformers` `wav2vec2` `Whisper` `Azure Speech`
 
 **Testing & tooling**<br>
