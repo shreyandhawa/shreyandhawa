@@ -1,6 +1,6 @@
-<img src="assets/header.svg" width="100%" alt="Shreyan Dhawa, student researcher in bioinformatics. I build and benchmark computational tools for single-cell biology, and report when they fail.">
+<img src="assets/header.svg" width="100%" alt="Hi! I'm Shreyan Dhawa, I work with computational methods for protein and cell engineering.">
 
-I build and benchmark computational tools for single-cell biology, and report when they fail. I also build local-first apps: [Arohexis](https://github.com/shreyandhawa/arohexis) and [nosolear](https://github.com/shreyandhawa/nosolear).
+Hi! I'm Shreyan Dhawa, I work with computational methods for protein and cell engineering. I also build local-first apps: [Arohexis](https://github.com/shreyandhawa/arohexis) and [nosolear](https://github.com/shreyandhawa/nosolear).
 
 [Site](https://shreyandhawa.github.io) · [Resume](https://shreyandhawa.github.io/resume.pdf)
 

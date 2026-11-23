@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="t d">
-  <title id="t">Shreyan Dhawa, student researcher in bioinformatics</title>
-  <desc id="d">Shreyan Dhawa, computer science student doing bioinformatics research, I build and benchmark computational tools for single-cell biology, and report when they fail. A decorative constellation links his name to four projects: Arohexis, nosolear, TruStory and lumenCell.</desc>
+  <title id="t">Shreyan Dhawa, computational methods for protein and cell engineering</title>
+  <desc id="d">Hi! I'm Shreyan Dhawa, I work with computational methods for protein and cell engineering. A decorative constellation links his name to four projects: Arohexis, nosolear, TruStory and lumenCell.</desc>
   <style>
     .sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
     .mono { font-family: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
@@ -43,9 +43,8 @@
   <!-- Left: name and focus -->
   <text x="56" y="88" class="mono label">HELLO, I'M</text>
   <text x="52" y="160" class="sans name">Shreyan Dhawa</text>
-  <text x="56" y="204" class="sans role">Student researcher in bioinformatics</text>
-  <text x="56" y="242" class="sans tag">I build and benchmark computational tools</text>
-  <text x="56" y="270" class="sans tag">for single-cell biology, and report when they fail.</text>
+  <text x="56" y="204" class="sans role">I work with computational methods</text>
+  <text x="56" y="242" class="sans tag">for protein and cell engineering.</text>
   <text x="56" y="312" class="mono small">bioinformatics · machine learning · python</text>
 
   <!-- Right: project constellation -->
