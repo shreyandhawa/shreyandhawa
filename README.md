@@ -1,12 +1,12 @@
-<img src="assets/header.svg" width="100%" alt="Shreyan Dhawa, computer science undergraduate building open-source tools for single-cell biology.">
+<img src="assets/header.svg" width="100%" alt="Shreyan Dhawa, student researcher in bioinformatics, building AI tools for biology and everyday life.">
 
-I'm a computer science undergraduate at the University of Southern Mississippi, minoring in biology and mathematics. I build open-source tools for single-cell biology — currently **[lumenCell](https://github.com/shreyandhawa/lumenCell_V2)**, which infers cell trajectories from single-cell RNA-seq data and then checks the result against T-cell receptor clonotypes, using ancestry evidence the inference never sees.
+I'm a computer science student at the University of Southern Mississippi doing bioinformatics research. I build AI tools, some for biology and some for everyday life.
 
-```bash
-pip install lumencell && lumencell demo
-```
+### Projects
 
-Working toward computational immuno-oncology.
+- **[Arohexis](https://github.com/shreyandhawa/arohexis)**: a local-first app that trains the moment of starting. Installable, works offline, keeps your data on your device.
+- **TruStory** (private): a local tool that compares statements against versioned evidence and exports findings with exact source references. Built for USM's Mississippi AI Innovation Hub.
+- **[lumenCell](https://github.com/shreyandhawa/lumenCell_V2)**: an interactive explorer for pseudotime and lineage trajectories in single-cell RNA-seq data.
 
 ### Skills
 
