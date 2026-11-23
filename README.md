@@ -27,6 +27,3 @@ I'm a computer science student at the University of Southern Mississippi doing b
 
 **Testing & tooling**<br>
 `pytest` `Hypothesis` `Vitest` `Playwright` `mypy (strict)` `Git` `GitHub Actions` `uv`
-
-**Learning now**<br>
-`neural network fundamentals` `protein language models (ESM-2)` `TCR repertoire analysis`
