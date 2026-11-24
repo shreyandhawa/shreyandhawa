@@ -14,7 +14,7 @@ Hi! I'm Shreyan Dhawa, I work with computational methods for protein and cell en
 ### Skills
 
 **Languages**<br>
-`Python` `TypeScript` `SQL` `R` `C++` `Swift` `HTML/CSS`
+`Python` `TypeScript` `SQL` `C++` `HTML/CSS`
 
 **Backend**<br>
 `FastAPI` `SQLAlchemy` `pydantic` `Typer` `SQLite`
